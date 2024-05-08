@@ -9,8 +9,7 @@ package paquete2;
  * @author utpl
  */
 public class LibretaNotas {
-
-    private String nombreEstudiante;
+        private String nombreEstudiante;
     private double calificacion1;
     private double calificacion2;
     private double calificacion3;
@@ -72,7 +71,7 @@ public class LibretaNotas {
     // el metodo to Strin la representacion  del objeto
     @Override
     public String toString() {
-        String cadena = String.format("Libreta de calificaciones\n"
+        String cadena = String.format("\n\nLibreta de notas\n"
                 + "Nombre Estudiante:%s\n"
                 + "Calificacion1:%2.f\n"
                 + "Calificacion2:%2.f\n"
@@ -85,5 +84,4 @@ public class LibretaNotas {
                  obtenerPromedio());
         return cadena;
     }
-
 }

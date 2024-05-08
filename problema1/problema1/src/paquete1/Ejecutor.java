@@ -1,7 +1,5 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+*/
 package paquete1;
 
 import paquete2.LibretaNotas;
@@ -15,10 +13,12 @@ public class Ejecutor {
     public static void main(String[] args) {
 
         LibretaNotas libreta1 = new LibretaNotas("Hinata", 10,10,9);
-        libreta1.calcularPromedio();
+        libreta1.obtenerPromedio();
         LibretaNotas libreta2 = new LibretaNotas("Hinata", 10, 10);
-        libreta2.calcularPromedio();
-        System.out.printf("%s\n%s\n",libreta1,libreta2);
+        libreta2.obtenerPromedio();
+        System.out.printf("%s\n",libreta1);
+        System.out.printf("%s\n",libreta2);
+        
     }
 
 }
