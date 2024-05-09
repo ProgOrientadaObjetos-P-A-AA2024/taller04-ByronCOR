@@ -13,9 +13,9 @@ public class Ejecutor {
     public static void main(String[] args) {
 
         LibretaNotas libreta1 = new LibretaNotas("Hinata", 10,10,9);
-        libreta1.obtenerPromedio();
+        libreta1.calcularPromedio();
         LibretaNotas libreta2 = new LibretaNotas("Hinata", 10, 10);
-        libreta2.obtenerPromedio();
+        libreta2.calcularPromedio();
         System.out.printf("%s\n",libreta1);
         System.out.printf("%s\n",libreta2);
         

@@ -71,12 +71,12 @@ public class LibretaNotas {
     // el metodo to Strin la representacion  del objeto
     @Override
     public String toString() {
-        String cadena = String.format("\n\nLibreta de notas\n"
+        String cadena = String.format("\nLibreta de notas\n"
                 + "Nombre Estudiante:%s\n"
-                + "Calificacion1:%2.f\n"
-                + "Calificacion2:%2.f\n"
-                + "Calificacion3:%2.f\n"
-                + "Promedio:%2.f\n",
+                + "Calificacion1:%.2f\n"
+                + "Calificacion2:%.2f\n"
+                + "Calificacion3:%.2f\n"
+                + "Promedio:%.2f\n",
                  nombreEstudiante,
                  obtenerCalificacion1(),
                  obtenerCalificacion2(),
